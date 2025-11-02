@@ -186,12 +186,12 @@ if has('nvim')
   "+- Neovim Diagnostics API -+
   call s:hi("DiagnosticWarn", s:nord13_gui, "", s:nord13_term, "", "", "")
   call s:hi("DiagnosticError" , s:nord11_gui, "", s:nord11_term, "", "", "")
-  call s:hi("DiagnosticInfo" , s:nord8_gui, "", s:nord8_term, "", "", "")
-  call s:hi("DiagnosticHint" , s:nord10_gui, "", s:nord10_term, "", "", "")
+  call s:hi("DiagnosticInfo" , s:nord13_gui, "", s:nord13_term, "", "", "")
+  call s:hi("DiagnosticHint" , s:nord13_gui, "", s:nord13_term, "", "", "")
   call s:hi("DiagnosticUnderlineWarn" , s:nord13_gui, "", s:nord13_term, "", "undercurl", "")
   call s:hi("DiagnosticUnderlineError" , s:nord11_gui, "", s:nord11_term, "", "undercurl", "")
-  call s:hi("DiagnosticUnderlineInfo" , s:nord8_gui, "", s:nord8_term, "", "undercurl", "")
-  call s:hi("DiagnosticUnderlineHint" , s:nord10_gui, "", s:nord10_term, "", "undercurl", "")
+  call s:hi("DiagnosticUnderlineInfo" , s:nord13_gui, "", s:nord13_term, "", "undercurl", "")
+  call s:hi("DiagnosticUnderlineHint" , s:nord13_gui, "", s:nord13_term, "", "undercurl", "")
 
   "+- Neovim DocumentHighlight -+
   call s:hi("LspReferenceText", "", s:nord3_gui, "", s:nord3_term, "", "")
@@ -566,12 +566,12 @@ if has('nvim')
   if has("nvim-0.5")
     call s:hi("LspDiagnosticsDefaultWarning", s:nord13_gui, "", s:nord13_term, "", "", "")
     call s:hi("LspDiagnosticsDefaultError" , s:nord11_gui, "", s:nord11_term, "", "", "")
-    call s:hi("LspDiagnosticsDefaultInformation" , s:nord8_gui, "", s:nord8_term, "", "", "")
-    call s:hi("LspDiagnosticsDefaultHint" , s:nord10_gui, "", s:nord10_term, "", "", "")
+    call s:hi("LspDiagnosticsDefaultInformation" , s:nord13_gui, "", s:nord13_term, "", "", "")
+    call s:hi("LspDiagnosticsDefaultHint" , s:nord13_gui, "", s:nord13_term, "", "", "")
     call s:hi("LspDiagnosticsUnderlineWarning" , s:nord13_gui, "", s:nord13_term, "", "undercurl", "")
     call s:hi("LspDiagnosticsUnderlineError" , s:nord11_gui, "", s:nord11_term, "", "undercurl", "")
-    call s:hi("LspDiagnosticsUnderlineInformation" , s:nord8_gui, "", s:nord8_term, "", "undercurl", "")
-    call s:hi("LspDiagnosticsUnderlineHint" , s:nord10_gui, "", s:nord10_term, "", "undercurl", "")
+    call s:hi("LspDiagnosticsUnderlineInformation" , s:nord13_gui, "", s:nord13_term, "", "undercurl", "")
+    call s:hi("LspDiagnosticsUnderlineHint" , s:nord13_gui, "", s:nord13_term, "", "undercurl", "")
   endif
   
   " Gitsigns
